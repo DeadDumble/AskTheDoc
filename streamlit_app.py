@@ -1,3 +1,4 @@
+import ctypes
 # Path to your SQLite3 DLL
 sqlite_dll_path = r"C:\Users\zacha\SQLite\sqlite\sqlite3.dll"  # Replace with the correct path
 
