@@ -1,6 +1,6 @@
 import ctypes
 # Path to your SQLite3 DLL
-sqlite_dll_path = r"C:\Users\zacha\SQLite\sqlite\sqlite3.dll"  # Replace with the correct path
+sqlite_dll_path = r"C:\Users\zacha\SQLite\ImportFile\sqlite3.dll"  # Replace with the correct path
 
 # Dynamically load the DLL
 ctypes.CDLL(sqlite_dll_path)
