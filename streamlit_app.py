@@ -1,3 +1,13 @@
+# Path to your SQLite3 DLL
+sqlite_dll_path = r"C:\Users\zacha\SQLite\sqlite\sqlite3.dll"  # Replace with the correct path
+
+# Dynamically load the DLL
+ctypes.CDLL(sqlite_dll_path)
+
+# Check if Python uses the correct SQLite version
+import sqlite3
+print(f"SQLite version in Python: {sqlite3.sqlite_version}")
+
 import streamlit as st
 from langchain.llms import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
