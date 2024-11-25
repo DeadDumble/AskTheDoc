@@ -1,21 +1,3 @@
-pip install streamlit langchain openai tiktoken chromadb
-
-pip install langchain_community
-
-
-requirements_content = """
-streamlit
-langchain
-openai
-chromadb
-tiktoken
-"""
-
-with open("requirements.txt", "w") as file:
-    file.write(requirements_content)
-
-print("requirements.txt file has been created.")
-
 import streamlit as st
 from langchain.llms import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
